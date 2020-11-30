@@ -1,22 +1,29 @@
 # AnomalyDetection_triplet
 
 
-models are found in experiment.
+A trained model is found in experiment.
+Using MINIST data for demonstration.
+digit 1 as normal and digit 0 as anomaleis.
+Train with a dataset consists of 6742 Normal data and 137 anomalous data.
+
 
 
 ## Visualize the trained model using tensorboard
 
 1. in an environment with Tensorflow 1.6.0 
 
-2, 
+2.
 ```python
 python visualize_anomalydetect.py --model_dir experiments/batch_hard_01_1N_0AN
 
 ```
 
-![Alt text](images/confusionMatrix.png?raw=true "CM" width="20")
+![Alt text](images/confusionMatrix.png?raw=true)
 
-3. 
+3. In an environment Tensorflow 1.6.0 
+```python
+tensorboard --logdir experiments/new_model
+```
 
 
 ## Training
