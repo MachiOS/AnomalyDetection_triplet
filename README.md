@@ -1,11 +1,11 @@
 # AnomalyDetection_triplet
 
 
-Train a Autoencoder for anomaly detection using triplet loss.
-A trained model is found in experiment.
-Using MINIST data for demonstration.
-digit 1 as normal and digit 0 as anomaleis.
-Train with a dataset consists of 6742 Normal data and 137 anomalous data.
+Train a Autoencoder for anomaly detection using triplet loss.\n
+A trained model is found in experiment.\n
+Using MINIST data for demonstration.\n
+digit 1 as normal and digit 0 as anomaleis.\n
+Train with a dataset consists of 6742 Normal data and 137 anomalous data.\n
 
 
 ## Visualize the trained model using tensorboard
