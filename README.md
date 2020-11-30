@@ -34,7 +34,8 @@ Go to Projecter tub
 
 ![Alt text](images/emb.png?raw=true)
 
-You will see the trained embeddings appereras in the middle layer of the autoencoder.
+You will see the trained embeddings appears in the middle layer of the autoencoder. (projected into 3-D space)
+
 
 
 
