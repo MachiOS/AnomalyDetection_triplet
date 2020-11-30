@@ -14,7 +14,7 @@ python visualize_anomalydetect.py --model_dir experiments/batch_hard_01_1N_0AN
 
 ```
 
-![Alt text](images/confusionMatrix.png?raw=true "CM")
+![Alt text](images/confusionMatrix.png?raw=true "CM" width="20")
 
 3. 
 
