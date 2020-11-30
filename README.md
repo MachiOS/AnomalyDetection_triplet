@@ -53,3 +53,6 @@ python train.py --model_dir experiments/new_model
 
 
 
+## Resources
+https://github.com/omoindrot/tensorflow-triplet-loss
+
