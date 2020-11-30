@@ -6,9 +6,17 @@ models are found in experiment.
 
 ## Visualize the trained model using tensorboard
 
-1. install Tensorflow 1.6.0 
-2, 
+1. in an environment with Tensorflow 1.6.0 
 
+2, 
+```python
+python visualize_anomalydetect.py --model_dir experiments/batch_hard_01_1N_0AN
+
+```
+
+![Alt text](images/confusionMatrix.png?raw=true "CM")
+
+3. 
 
 
 ## Training
@@ -29,8 +37,8 @@ python train.py --model_dir experiments/new_model
 python visualize_anomalydetect.py --model_dir experiments/new_model
 
 ```
-4. on environment Tensorflow 1.6.0 
+4. In an environment Tensorflow 1.6.0 
 ```python
-tensorboard --logdir experiments/batch_hard_01_1N_0AN
+tensorboard --logdir experiments/new_model
 ```
 
