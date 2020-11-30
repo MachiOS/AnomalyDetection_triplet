@@ -21,9 +21,18 @@ python visualize_anomalydetect.py --model_dir experiments/batch_hard_01_1N_0AN
 ![Alt text](images/confusionMatrix.png?raw=true)
 
 3. In an environment Tensorflow 1.6.0 
-```python
+```bash
 tensorboard --logdir experiments/new_model
 ```
+
+Access to 
+```
+http://localhost:6006/
+```
+Go to Projecter tub
+
+![Alt text](images/emb.png?raw=true)
+
 
 
 ## Training
