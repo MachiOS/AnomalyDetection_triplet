@@ -43,9 +43,9 @@ You will see the trained embeddings appears in the middle layer of the autoencod
 
 Suppose you want to train "new_model".
 
-1 Environment: install Tensorflow tensorflow 2.3.0  
+1. Environment: install Tensorflow tensorflow 2.3.0  
 
-2. 
+2.
 ```python
 python train.py --model_dir experiments/new_model
 ```
